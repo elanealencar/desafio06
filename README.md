@@ -1,109 +1,70 @@
-# Meu Portfólio em React
+# Getting Started with Create React App
 
-Este é um modelo projeto de portfólio pessoal desenvolvido em **React**, com rolagem suave e navegação dinâmica entre seções. O site é composto de várias seções, como "Início", "Sobre Mim", "Projetos", "Serviços" e "Habilidades", permitindo aos usuários acessar facilmente as diferentes partes da página.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 📋 Funcionalidades
+## Available Scripts
 
-- **Menu de navegação** com links para rolar suavemente até diferentes seções da página.
-- **Seções**:
-  - **Início**: Apresentação inicial.
-  - **Sobre Mim**: Informações pessoais e profissionais.
-  - **Projetos**: Exibição de projetos realizados, com detalhes e links para os repositórios.
-  - **Serviços**: Serviços oferecidos.
-  - **Habilidades**: Habilidades técnicas em desenvolvimento.
-- **Layout responsivo**: Compatível com diferentes tamanhos de tela.
-- **Componentização** em React: Cada seção e o menu de navegação são componentes reutilizáveis.
-  
-## 🚀 Tecnologias Utilizadas
+In the project directory, you can run:
 
-- **React**: Biblioteca JavaScript para criar interfaces de usuário.
-- **CSS**: Para estilização dos componentes.
-- **JavaScript**: Para implementar funcionalidades como rolagem suave e navegação.
-- **HTML**: Estruturação das páginas.
+### `npm start`
 
-## 📦 Como Executar o Projeto
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-1. **Clone o repositório**:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   ```
+### `npm test`
 
-2. **Instale as dependências**:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-   Navegue até o diretório do projeto e instale as dependências necessárias:
+### `npm run build`
 
-   ```bash
-   cd seu-repositorio
-   npm install
-   ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-3. **Inicie o servidor de desenvolvimento**:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-   Após a instalação das dependências, execute o seguinte comando para iniciar o servidor local:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-   ```bash
-   npm start
-   ```
+### `npm run eject`
 
-4. **Acesse o projeto no navegador**:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-   O projeto estará disponível no endereço:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-   ```
-   http://localhost:3000
-   ```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## 📂 Estrutura de Pastas
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-```bash
-.
-├── public
-│   └── index.html         # Ponto de entrada do HTML
-├── src
-│   ├── components
-│   │   ├── Header.js      # Componente do menu de navegação
-│   │   ├── InitialSection.js  # Seção inicial
-│   │   ├── AboutSection.js    # Seção "Sobre Mim"
-│   │   ├── Projects.js    # Seção de projetos
-│   │   ├── Services.js    # Seção de serviços
-│   │   ├── Habilities.js  # Seção de habilidades
-│   ├── App.js             # Componente principal
-│   └── index.js           # Ponto de entrada do React
-├── package.json           # Dependências do projeto
-└── README.md              # Documentação do projeto
-```
+## Learn More
 
-## ✨ Como Funciona a Navegação
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-No arquivo `Header.js`, há um menu de navegação que utiliza o método `querySelector` para identificar as seções correspondentes e aplicar a rolagem suave até elas:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-```javascript
-const handleNavigation = (e, sectionSelector) => {
-  e.preventDefault(); // Previne o comportamento padrão do link
-  
-  const section = document.querySelector(sectionSelector);
-  if (section) {
-    window.scrollTo({
-      top: section.offsetTop,
-      behavior: 'smooth'
-    });
-  }
-};
-```
+### Code Splitting
 
-Cada seção no arquivo `App.js` possui um **ID** que permite a navegação adequada:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-```javascript
-<section id="inicio">
-  <InitialSection />
-</section>
-```
+### Analyzing the Bundle Size
 
-## 🎨 Estilização
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-A estilização foi realizada com **CSS** puro para garantir simplicidade e flexibilidade. Cada componente tem seu próprio arquivo CSS, e classes foram utilizadas para estilizar as seções e o menu de navegação.
+### Making a Progressive Web App
 
-## 📄 Licença
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
----
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
