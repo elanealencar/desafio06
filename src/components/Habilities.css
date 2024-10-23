@@ -1,0 +1,43 @@
+.habilities {
+    background-color: #0B0B0B;
+    display: flex;
+    flex-direction: column; 
+    padding-top: 50px;
+    color: white;
+    padding-bottom: 90px;
+}
+
+.habilities h1 {
+    color: #97EDAA;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+
+.habilitiesIcon {
+    background-color: #1F1F1F;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 120px;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilitiesIcon img {
+    height: 60px;
+    width: 60px;
+    
+}
+
+.habilitiesContent {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.habilitiesIcon:hover {
+    background-color: black;
+}

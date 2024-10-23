@@ -1,0 +1,78 @@
+.projects {
+    background-color: #0B0B0B;
+    display: flex;
+    flex-direction: column; 
+    padding-top: 80px;
+    color: white;
+}
+
+.projects h1 {
+    color: #97EDAA;
+    text-align: center;
+    font-size: 24px;
+}
+
+.projects h1, .projectImage {
+    color: #97EDAA;
+    text-align: center;
+}
+
+.projectsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.gridItem {
+    padding: 20px; 
+}
+
+.projectImage {
+    height: 120px;
+    align-content: center;
+    border: 1px solid #1F1F1F;
+    background-color: #101010;
+    
+}
+
+.projects h2 {
+    font-size: 20px;
+}
+
+.projects p {
+    font-size: 16px;
+    color: #97EDAA;
+
+}
+
+
+.projectButton {
+    width: 160px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #97EDAA;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.repositoryButton {
+    width: 160px;
+    padding: 10px;
+    color: #97EDAA;
+    background-color: black;
+    border: 1px solid #97EDAA;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.buttonContainer button:hover {
+    background-color: white;
+    color: black;
+}

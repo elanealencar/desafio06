@@ -1,0 +1,46 @@
+.aboutSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    background-color: #0B0B0B;
+    color: white;
+    
+  }
+  
+.aboutContent {
+  display: flex;
+  width: 100%;
+  max-width: 1200px; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftColumn p {
+    font-size: 24px;
+}
+
+.leftColumn h1 {
+    font-size: 48px;
+    color: #97EDAA;
+    margin: 0px;
+}
+
+
+.downloadButton {
+    padding: 10px 40px;
+    background-color: #97EDAA;
+    color: #0B0B0B;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 193px;
+    height: 37px;
+  }
+
+.rightColumn {
+ width: 500px;
+ height: 500px;
+ padding-right: 120px;
+}

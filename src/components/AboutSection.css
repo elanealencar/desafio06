@@ -1,0 +1,50 @@
+.aboutMeSection {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    color: white;
+    background-color: #0B0B0B;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.aboutMeSection h1 {
+    color: #97EDAA;
+    font-size: 24px;
+}
+
+.aboutContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    gap: 40px
+}
+
+.icon {
+    height: 62px;
+    width: 62px;
+    border-radius: 50%;
+    border: 1px solid #1F1F1F;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.aboutColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.icon img {
+    width: 32px;
+    height: 32px;
+}
+
+.aboutTitle {
+    font-size: 20px;
+}

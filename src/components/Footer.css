@@ -1,0 +1,26 @@
+.footer {
+    background-color: #1F1F1F;
+    display: flex;
+    color: white;
+    height: 100px;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer img {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+.footerName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerPowered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
